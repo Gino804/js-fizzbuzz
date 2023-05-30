@@ -24,12 +24,15 @@ Come abbiamo visto puoi usare varie tecniche (style , className, classList)
 1. Creo una variabile in cui verranno inseriti tutti gli elementi HTML da stampare in pagina
 2. Inizializzo un ciclo che restituisca i numeri da 1 a 100
 3. **FINTANTO CHE** il contatore è minore o uguale a 100
-   - **SE** il numero attuale è multiplo di 3
+   - **SE** il numero attuale è multiplo sia di 3 che di 5
+     - Aggiungo nella variabile apposita un elemento con la scritta "FizzBuzz"
+     - BONUS - Applico all'elemento uno sfondo rosso
+   - **ALTRIMENTI SE** il numero attuale è multiplo di 3
      - Aggiungo nella variabile apposita un elemento con la scritta "Fizz"
+     - BONUS - Applico all'elemento uno sfondo verde
    - **ALTRIMENTI SE** il numero attuale è multiplo di 5
      - Aggiungo nella variabile apposita un elemento con la scritta "Buzz"
-   - **ALTRIMENTI SE** il numero attuale è un multiplo sia di 3 che di 5
-     - Aggiungo nella variabile apposita un elemento con la scritta "FizzBuzz"
+     - BONUS - Applico all'elemento uno sfondo giallo
    - **ALTRIMENTI**
      - Aggiungo nella variabile apposita un elemento con il numero attuale
 4. Inserisco nel contenitore del DOM l'intero codice HTML contenuto nella variabile

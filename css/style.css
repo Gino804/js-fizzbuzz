@@ -1,0 +1,41 @@
+body
+{
+    background-color:#083B4C;
+}
+
+h1
+{
+    font-size:70px;
+}
+
+#container
+{
+    width:60%;
+    margin:auto;
+}
+
+.square
+{
+    height:120px;
+    width:120px;
+    background-color:#1389B2;
+    text-align:center;
+    line-height:120px;
+    font-weight:bold;
+    font-size:20px;
+}
+
+.bg-green
+{
+    background-color:rgb(104, 236, 137);
+}
+
+.bg-yellow
+{
+    background-color:rgb(247, 247, 94);
+}
+
+.bg-red
+{
+    background-color:rgb(245, 79, 121);
+}
